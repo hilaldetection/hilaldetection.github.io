@@ -10391,7 +10391,7 @@ hitung.addEventListener("click", ()=>{
     // hasil1.innerHTML = "Hari &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: " +hariijtima3 +" "+namapasaran+", "+tanggal+" "+namabulanmas+" "+tahunberjalan;
     // hasil2.innerHTML = "Jam&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: " + JIdr+" : "+JImn+" : "+JIdt+" Istiwa' atau "+JWdr+" : "+JWmn+" : "+JWdt+" WIB";
     // hasil3.innerHTML = "Kondisi Matahari dan Hilal Malam "+harimalam2+" : ";
-    // hasil4.innerHTML = "Maghrib&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: "+magdr+" : "+magmn+" : "+magdt+" WIB";
+    // hasil4.innerHTML = "Maghrib&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: "+magdr+" : "+magmn+" : "+magdt+" Istiwa'";
     // hasil5.innerHTML = "Matahari Terbenam &nbsp: "+SMGSdr+"&deg "+SMGSmn+"' "+SMGSdt+"'' "+arahSMGS;
     // hasil6.innerHTML = "Tinggi Hilal &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: " + IHdr +"&deg "+IHmn+"' "+IHdt+"'' ";
     // hasil7.innerHTML = "Lama Hilal&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: " + MHdr +" Jam "+MHmn+" Menit "+MHdt+" Detik";
@@ -10399,7 +10399,7 @@ hitung.addEventListener("click", ()=>{
     // hasil9.innerHTML = "Nurul Hilal &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: "+ NH +" Jari";
     // hasil10.innerHTML = "Keadaan Hilal &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: " + KeH;
     // hasil11.innerHTML = "Hilal Terbenam&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: "+SMGdr+"&deg "+SMGmn+"' "+SMGdt+"'' "+arahSMG; ;
-    // hasil12.innerHTML = "Jam Hilal Terbenam : " + HTdr+" : "+HTmn +" : "+HTdt+" WIB";
+    // hasil12.innerHTML = "Jam Hilal Terbenam : " + HTdr+" : "+HTmn +" : "+HTdt+" Istiwa'";
     // }
 
     document.querySelector("#hasil").innerHTML = `
@@ -10439,7 +10439,7 @@ hitung.addEventListener("click", ()=>{
             <p class="lead" style="color: #000; margin-bottom: 0.5rem">Maghrib</p>
         </div>
         <div class="col-8">
-            <p class="lead" style="color: #000; margin-bottom: 0.5rem">: ${magdr+":"+magmn+":"+magdt+" WIB"}</p>
+            <p class="lead" style="color: #000; margin-bottom: 0.5rem">: ${magdr+":"+magmn+":"+magdt+" Istiwa'"}</p>
         </div>
     </div>
     <div class="row">
@@ -10503,7 +10503,7 @@ hitung.addEventListener("click", ()=>{
             <p class="lead" style="color: #000; margin-bottom: 0.5rem">Jam Hilal Terbenam</p>
         </div>
         <div class="col-8">
-            <p class="lead" style="color: #000; margin-bottom: 0.5rem">: ${HTdr+":"+HTmn +":"+HTdt+" WIB"}</p>
+            <p class="lead" style="color: #000; margin-bottom: 0.5rem">: ${HTdr+":"+HTmn +":"+HTdt+" Istiwa'"}</p>
         </div>
     </div>
     `
